@@ -1,0 +1,13 @@
+node_modules
+dist
+dist-ssr
+*.local
+.env
+.env.*
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.eslintcache
+
+# Playwright CLI (pruebas locales)
+.playwright-cli
