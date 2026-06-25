@@ -7,7 +7,10 @@ export default function Reveal({ children, delay = 0, y = 28, className = '', on
       className={className}
       initial={{ opacity: 0, y }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once, margin: '-80px' }}
+      // Margen inferior positivo: el reveal se dispara ANTES de que la sección
+      // entre al viewport, así ya está visible cuando el usuario llega a ella
+      // (evita ver el hueco "en blanco" al bajar rápido).
+      viewport={{ once, margin: '0px 0px 200px 0px' }}
       transition={{ duration: 0.6, delay, ease: [0.22, 1, 0.36, 1] }}
     >
       {children}
