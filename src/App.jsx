@@ -1,4 +1,5 @@
 import AuroraBackground from './components/AuroraBackground'
+import Preloader from './components/Preloader'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Hero from './sections/Hero'
@@ -10,6 +11,7 @@ import Contact from './sections/Contact'
 export default function App() {
   return (
     <>
+      <Preloader />
       <AuroraBackground />
       <Navbar />
       <main className="relative">

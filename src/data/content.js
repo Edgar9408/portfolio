@@ -231,8 +231,8 @@ export const t = {
     title: { es: 'Hablemos', en: "Let's talk" },
     kicker: { es: 'Contacto', en: 'Contact' },
     intro: {
-      es: '¿Tienes un proyecto en mente o una vacante? Escríbeme por el formulario o por cualquiera de mis canales. Respondo rápido.',
-      en: 'Got a project in mind or a position open? Reach out via the form or any of my channels. I reply fast.',
+      es: '¿Tienes una idea, un proyecto o una propuesta interesante? Me encantará conocerla. Escríbeme por el formulario o por el canal que prefieras.',
+      en: 'Have an idea, a project or an interesting opportunity? I’d love to hear about it. Drop me a line through the form or whichever channel you prefer.',
     },
     form: {
       name: { es: 'Tu nombre', en: 'Your name' },
@@ -242,6 +242,14 @@ export const t = {
       sending: { es: 'Enviando...', en: 'Sending...' },
       success: { es: '¡Mensaje enviado! Te responderé pronto.', en: 'Message sent! I will get back to you soon.' },
       error: { es: 'Algo falló. Escríbeme directo al correo.', en: 'Something failed. Email me directly.' },
+      errors: {
+        nameRequired: { es: 'Escribe tu nombre.', en: 'Please enter your name.' },
+        nameShort: { es: 'Tu nombre es muy corto.', en: 'Your name is too short.' },
+        emailRequired: { es: 'Escribe tu correo.', en: 'Please enter your email.' },
+        emailInvalid: { es: 'Ese correo no parece válido.', en: "That email doesn't look valid." },
+        messageRequired: { es: 'Escribe un mensaje.', en: 'Please enter a message.' },
+        messageShort: { es: 'Cuéntame un poco más (mín. 10 caracteres).', en: 'Tell me a bit more (min. 10 characters).' },
+      },
     },
   },
 
